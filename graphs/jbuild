@@ -1,0 +1,11 @@
+(jbuild_version 1)
+
+(library
+  ((name graphs)
+   (public_name graphs)
+   (modules
+    (graph))
+   (libraries
+     (core
+      core_extended))
+   (preprocess (pps (ppx_jane)))))
