@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/graphs/META" {"META"}
+  "_build/install/default/lib/graphs/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/graphs" {"graphs"}
+]
